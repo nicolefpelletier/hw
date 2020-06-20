@@ -51,4 +51,8 @@
     <td>rating</td>
     <td>Health rating of the cereal based on nutritional information</td>
   </tr>
+  <tr>
+    <td>address</td>
+    <td>The address of the manufacturer</td>
+  </tr>
 </table>
