@@ -1,0 +1,15 @@
+This is how you would normalize the data for cereal.csv:
+
+Table 1: BasicInformation
+Fields: name(string), mfg(string), address(string)
+
+Table 2: NutritionalInfo
+Fields: name(string), calories(integer), protein(integer), fat(integer), sodium(integer), fiber(float), carbo(float), sugars(integer),
+potass(integer), vitamins(integer), cups(float), rating(float)
+
+
+Table 1 has the basic information of the cereal which includes the manufacturer and the address of the manufacturer
+Table 2 has the name of the cereal as well as all the nutritional information. It also includes the cereal's health rating which is calculated
+based on the nutritional information.
+
+The primary key between the two tables is the name of the cereal(field name is "name").
